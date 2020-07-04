@@ -8,6 +8,10 @@
 
 // Your code:
 
+const arr = [i];
+
+const total = arr.map(i => sum i)
+
 //* Begin of tests
 const assert = require('assert');
 
