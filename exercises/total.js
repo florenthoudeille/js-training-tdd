@@ -8,9 +8,11 @@
 
 // Your code:
 
-const arr = [i];
+const arr = []
 
-const total = arr.map(i => sum i)
+function total(arr) {
+  return arr.reduce((a, b) => a + b, 0);
+}
 
 //* Begin of tests
 const assert = require('assert');
